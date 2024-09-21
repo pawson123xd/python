@@ -1,0 +1,40 @@
+---
+title: "Egzamin (pierwszy termin) - Wizualizacja danych - Zestaw 22"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+*Zadanie 1 i 2 po 15 pkt. Zadanie 3 - 20 pkt. *
+
+*Punktacja: 46-50 pkt - bdb(5,0); 41-45 pkt - db+(4,5); 36-40 pkt - db(4,0); 31-35 pkt - dst+(3,5); 26-30 pkt - dst(3,0); 0-25 pkt - ndst (2,0).*  
+
+Zad.1. Na jednym wykresie narysuj wykresy krzywych: $y=x+e$, $y=-4x+2$, $y=2\cos(x)$ na przedziale $[0,3\pi]$. Wykres powinien posiadać tytuł, legendę, podpisane etykiety obu osi. Dodaj siatkę na wykres. Linie krzywych powinny mieć różne style i różne kolory inne niż domyślne. Zapisz wykres w formacie png za pomocą kodu. 
+
+Zad.2. W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku mieszkania22.xlsx jako ramkę danych (Data Frame),
+* wyświetl na konsoli średnią z poszczególnych lat 
+
+typ mieszkania 1 - średnią ze wszystkich lat
+
+typ mieszkania 2 - średnią ze wszystkich lat
+
+typ mieszkania 3 - średnią ze wszystkich lat
+
+* stwórz wykres słupkowy poziomy prezentujący dane zawarte w ramce danych (wszystkie dane)
+* umieść swój numer indeksu w lewym górnym rogu wykresu.
+
+Wykres powinien być estetyczny i podpisany. Im więcej - tym lepiej.
+
+Zapisz wykres w formacie pdf za pomocą kodu.
+
+Zad.3. W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku transport22.csv,
+* uporządkuj dane tak, aby dane liczbowe były zgodne z koncepcją "czystych danych" (w kolumnach)
+* stwórz dwa wykresy kołowe prezentujące względny udział środków transportu w danym roku (wybierz dowolne dwa lata samodzielnie)
+* Wykres powinien być estetyczny i podpisany. Im więcej - tym lepiej.
+
+Zapisz wykres w formacie jpg za pomocą kodu.
