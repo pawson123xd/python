@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+import numpy as np
+fig,ax1=plt.subplots()
+x=np.arange(0,5,0.1)
+x=np.arange(0,5,0.1)
+x1=np.sin(x)
+y1=np.cos(x)
+ax1.plot(x,y1,":",color='black',label="cos(x)")
+ax1.set_xlabel("oś dolna")
+ax1.set_ylabel('oś lewa',color='g')
+ax2=ax1.twinx()
+ax2.plot(x,x1-1,":",color='orange',label="sin(x)")
+ax2.set_ylabel('oś prawa',color='r')
+plt.title("to jest tytul wykresu")
+plt.legend()
+plt.show()
