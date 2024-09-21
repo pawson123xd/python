@@ -1,0 +1,54 @@
+---
+title: "Wizualizacja danych (2023N)  \n- Egzamin (przykładowy) - Zestaw T02"
+lang: pl
+editor: visual
+format: pdf
+---
+
+*Zadanie 1 i 2 po 15 pkt. Zadanie 3 - 20 pkt.*
+
+*Punktacja: 46-50 pkt - bdb(5,0); 41-45 pkt - db+(4,5); 36-40 pkt - db(4,0); 31-35 pkt - dst+(3,5); 26-30 pkt - dst(3,0); 0-25 pkt - ndst (2,0).*
+
+Rozwiązania mają być umieszczone zgodnie ze specyfikacją:
+
+-   Zadania powinny być umieszczone w archiwum .zip na udostępnionym pendrive.
+
+-   Nazwa archiwum powinna być wg schematu NUMERZESTAWU_NUMERALBUMU.zip gdzie numer zestawu znajduje się na górze kartki z poleceniami. np. A23_123456.zip
+
+-   We wnętrzu archiwum powinny znajdować się tylko same kody w języku Python, pliki powinny posiadać dokładnie nazwy (z uwzględnieniem wielkości znaków): `zad1.py`, `zad2.py`, `zad3.py`.
+
+-   Minimalna wersja Python to 3.8. Wykresy powinny bazować na bibliotece matplotlib lub seaborn lub innych bibliotekach bazujących na nich.
+
+-   Maksymalna waga archiwum 10 MB.
+
+-   Archiwum powinno być bez hasła.
+
+-   W przypadku pominięcie danego zadania, należy dodać plik o nazwie sprecyzowanej wyżej (zawartość może być pusta).
+
+*Za zachowanie specyfikacji dokładnie otrzymuję się dodatkowe 2 punkty. Zadania znacznie odbiegające od specyfikacji mogą nie być sprawdzane.*
+
+Polecenia są na odwrocie.
+
+\pagebreak
+
+
+Zad.1. Odwzoruj wykres znajdujący się w pliku graficznym 2.png znajdującym się folderze. Odcienie kolorów mogą się różnić, jednak główne barwy muszą być zachowane.
+Zapisz powstały wykres w formacie png.
+
+Zad.2. W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku uczniowie2.xlsx jako ramkę danych (Data Frame),
+* stwórz wykres punktowy prezentujący dane zawarte w ramce danych (wszystkie dane) - ustal kolor, rodzaj i wielkość markera na inne wartości niż domyślne
+
+Wykres powinien być estetyczny i podpisany. Im więcej - tym lepiej.
+
+Zapisz wykres w formacie jpg za pomocą kodu.
+
+Zad.3. W jednym pliku wykonaj poniższe czynności:
+
+* załaduj dane z pliku rod2.xlsx,
+* uporządkuj dane tak, aby odpowiednie dane były zaprezentowane w kolumnach,
+* stwórz wykres dwa wykresy liniowe na dwóch rysunkach (pierwszy powierzchnia ogrodów, drugi liczba działek)
+* Wykresy powinny być estetyczne i podpisane. Im więcej - tym lepiej.
+
+Zapisz wykresy w formacie pdf za pomocą kodu.
